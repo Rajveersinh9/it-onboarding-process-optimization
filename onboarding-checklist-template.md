@@ -1,41 +1,84 @@
-# Employee Onboarding Checklist
+# Employee Onboarding Checklist (Mac-First Environment)
 
-## Pre-Start Preparation
+---
+
+## 1. Pre-Start Preparation
+
 - Assign asset tag to MacBook
+- Record serial number
 - Update inventory tracking sheet
-- Confirm department and role access requirements
+- Confirm department and access level requirements
+- Prepare onboarding ticket in helpdesk system
 
-## Account Provisioning
-- Create Google Workspace account
-- Assign email alias
-- Add to appropriate Google Groups
+---
+
+## 2. Account Provisioning
+
+### Google Workspace
+- Create user account
+- Assign email alias (if required)
+- Add to relevant Google Groups
+- Assign role-based access permissions
+
+### Slack
 - Create Slack account
-- Add to required Slack channels
-- Configure SSO access
-- Enforce MFA enrollment
+- Add to department channels
+- Assign user groups
+- Confirm workspace permissions
 
-## macOS Configuration
-- Create local admin account
+### Additional Systems
+- Provision VPN access (if required)
+- Assign project management tools (e.g., Asana, Notion)
+- Configure SSO access where applicable
+
+---
+
+## 3. MFA Enforcement
+
+- Enable multi-factor authentication
+- Verify enrollment completed
+- Confirm backup authentication method
+- Document MFA status in ticket
+
+---
+
+## 4. macOS Device Configuration
+
+- Create standard user account
 - Install required applications:
   - Google Chrome
   - Slack
   - Zoom
   - VPN client
-- Enable FileVault
-- Configure system updates
+- Enable FileVault encryption
+- Configure automatic OS updates
+- Apply password policy standards
 
-## Security Controls
-- Enforce MFA
-- Verify password compliance
-- Confirm endpoint encryption enabled
-- Install endpoint security tool (simulated)
+---
 
-## Day 1 Support
-- Assist first login
-- Confirm access to tools
-- Verify Slack + email working
-- Troubleshoot issues
+## 5. Security Validation
 
-## Completion
-- Mark onboarding as completed
-- Update ticket system
+- Confirm device encryption enabled
+- Validate firewall settings
+- Confirm endpoint protection installed
+- Test login authentication
+- Confirm least privilege access applied
+
+---
+
+## 6. Day 1 Support
+
+- Assist first-time login
+- Verify email functionality
+- Confirm Slack access
+- Test network connectivity
+- Resolve initial software issues
+
+---
+
+## 7. Completion
+
+- Mark onboarding ticket as completed
+- Update inventory system
+- Document configuration summary
+- Confirm user acknowledgement
