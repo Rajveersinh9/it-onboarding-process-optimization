@@ -1,46 +1,82 @@
 # IT Onboarding Process Optimization (Mac-First Environment)
 
 ## Overview
-This project simulates a structured IT onboarding workflow designed for a Mac-first startup environment. 
 
-The objective was to:
-- Standardize account provisioning
-- Reduce setup errors
-- Improve device deployment turnaround time
-- Enforce MFA and security compliance
+This project simulates a structured IT onboarding workflow designed for a modern, Mac-first startup environment.
 
-## Problem
-Unstructured onboarding often leads to:
-- Missing account access
-- Delayed device setup
-- Inconsistent MFA enforcement
-- Security gaps during user provisioning
+The objective of this project was to standardize:
+
+- Account provisioning
+- Device configuration
+- Security enforcement (MFA & encryption)
+- Inventory management
+- Offboarding procedures
+
+This workflow is designed to reduce setup errors, improve turnaround time for new hires, and enforce secure access lifecycle management.
+
+---
+
+## Problem Statement
+
+In fast-growing startups, onboarding often becomes inconsistent due to:
+
+- Missing tool access
+- Delayed laptop configuration
+- Weak MFA enforcement
+- Incomplete documentation
+- Security gaps during offboarding
+
+Unstructured onboarding increases operational risk and support overhead.
+
+---
 
 ## Solution
-Designed a structured onboarding workflow including:
 
-- Step-by-step device configuration guide (macOS)
-- Account provisioning checklist (Google Workspace, Slack, SSO)
-- MFA compliance enforcement process
-- Hardware inventory tracking system
-- Offboarding access revocation procedure
+Designed a structured onboarding workflow that includes:
 
-## Key Features
-- Mac-first configuration documentation
-- Identity & access provisioning workflow
-- Security compliance checklist
-- Inventory management template
-- Offboarding access audit process
+- Step-by-step macOS device configuration guide
+- Identity & access provisioning checklist
+- MFA enforcement verification process
+- Inventory tracking system
+- Formal offboarding access revocation process
+- Documentation templates for repeatability
+
+---
+
+## Key Components
+
+- Mac-first device configuration documentation
+- Google Workspace provisioning checklist
+- Slack setup and access grouping
+- MFA compliance validation
+- Asset lifecycle management
+- Offboarding audit checklist
+
+---
+
+## Security Considerations
+
+- Enforced MFA at onboarding stage
+- Verified disk encryption (FileVault)
+- Applied principle of least privilege
+- Created structured access revocation process
+- Documented account removal verification
+
+---
 
 ## Tools Referenced
+
 - macOS
 - Google Workspace
 - Slack
-- MFA enforcement
-- Basic networking concepts
-- Asset inventory management
+- Multi-Factor Authentication (MFA)
+- Basic networking fundamentals
+- Asset inventory tracking
+
+---
 
 ## Outcome
-Improved onboarding consistency and reduced setup errors by implementing a structured checklist-based workflow.
 
-This project demonstrates foundational IT operations, device management, and access control understanding.
+This structured onboarding model improves consistency, reduces human error, and strengthens device and identity security posture in a startup IT environment.
+
+This project demonstrates foundational IT operations, process design, and security-aware support practices.
