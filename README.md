@@ -1,82 +1,31 @@
-# IT Onboarding Process Optimization (Mac-First Environment)
+# IT Onboarding Process Optimization
+## Independent business analysis case study
 
-## Overview
+A proposed workflow for employee IT onboarding in a fictional Mac-first organization. This documentation exercise extends an earlier onboarding checklist into business requirements, process analysis, planned user acceptance testing, and operational handover.
 
-This project simulates a structured IT onboarding workflow designed for a modern, Mac-first startup environment.
+**Status:** Draft for portfolio-owner review. AI-assisted documentation; no stakeholder interviews, deployment, formal approval, or user acceptance testing has taken place. Examples are fictional and contain no employer or patient information. This is not an eHealth Saskatchewan project and does not describe its internal systems.
 
-The objective of this project was to standardize:
+## Business problem
+An assumed organization receives incomplete onboarding requests through several channels. Missing approvals, unclear ownership, and incomplete readiness checks can delay access and create rework. These are scenario assumptions, not measured findings from an employer.
 
-- Account provisioning
-- Device configuration
-- Security enforcement (MFA & encryption)
-- Inventory management
-- Offboarding procedures
+## Proposed approach
+Use a single tracked request with mandatory information, explicit approval, role-based access decisions, readiness checks, exception handling, and a documented support handover.
 
-This workflow is designed to reduce setup errors, improve turnaround time for new hires, and enforce secure access lifecycle management.
+## Read the case study
+1. [Business requirements and acceptance criteria](business-requirements.md)
+2. [Current and proposed processes](process-analysis.md)
+3. [UAT scenarios and requirements traceability](uat-and-traceability.md)
+4. [Operational handover and proposed measures](operational-handover.md)
+5. [Review and walkthrough instructions](portfolio-review.md)
 
----
+## Earlier supporting materials
+The repository's existing device configuration guide, onboarding checklist, security checklist, and workflow image are preliminary supporting sketches. They are not validated implementation instructions. The BA documents above describe the proposed controls and exceptions; older materials should be reconciled before any real implementation.
 
-## Problem Statement
+## Scope and limits
+Covers onboarding request intake through support handover. Production provisioning, real identity integrations, offboarding, procurement, clinical applications, and regulatory certification are outside this case study. No performance improvement is claimed. Proposed measures require baseline data and a pilot.
 
-In fast-growing startups, onboarding often becomes inconsistent due to:
+## Skills illustrated
+Requirements specification, acceptance criteria, process mapping, prioritization, exception analysis, test planning, traceability, and support transition.
 
-- Missing tool access
-- Delayed laptop configuration
-- Weak MFA enforcement
-- Incomplete documentation
-- Security gaps during offboarding
-
-Unstructured onboarding increases operational risk and support overhead.
-
----
-
-## Solution
-
-Designed a structured onboarding workflow that includes:
-
-- Step-by-step macOS device configuration guide
-- Identity & access provisioning checklist
-- MFA enforcement verification process
-- Inventory tracking system
-- Formal offboarding access revocation process
-- Documentation templates for repeatability
-
----
-
-## Key Components
-
-- Mac-first device configuration documentation
-- Google Workspace provisioning checklist
-- Slack setup and access grouping
-- MFA compliance validation
-- Asset lifecycle management
-- Offboarding audit checklist
-
----
-
-## Security Considerations
-
-- Enforced MFA at onboarding stage
-- Verified disk encryption (FileVault)
-- Applied principle of least privilege
-- Created structured access revocation process
-- Documented account removal verification
-
----
-
-## Tools Referenced
-
-- macOS
-- Google Workspace
-- Slack
-- Multi-Factor Authentication (MFA)
-- Basic networking fundamentals
-- Asset inventory tracking
-
----
-
-## Outcome
-
-This structured onboarding model improves consistency, reduces human error, and strengthens device and identity security posture in a startup IT environment.
-
-This project demonstrates foundational IT operations, process design, and security-aware support practices.
+## Next validation steps
+Review assumptions with representative stakeholders, reconcile older checklists, build a safe prototype, execute the planned scenarios, record actual results, and revise the documentation. Until then, all tests remain **Not run**.
