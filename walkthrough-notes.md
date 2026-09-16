@@ -1,6 +1,6 @@
 # Onboarding Process — Paper Walkthrough
 
-Status: AI-assisted draft pending portfolio-owner review
+Status: AI-assisted paper walkthrough reviewed by portfolio owner
 
 This document examines three scenarios against the proposed
 onboarding requirements. No software tests, account changes,
